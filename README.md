@@ -6,6 +6,21 @@
 - Node.js (recommend version 18 or later)
 - npm
 
+#### Installing Node.js
+```bash
+# Ubuntu/Debian
+sudo apt update
+sudo apt install nodejs npm
+
+# Check installed version
+node -v
+npm -v
+```
+
+For other operating systems, you can download Node.js from the official website:
+- [Node.js Downloads](https://nodejs.org/en/download)
+
+
 ### Installation
 ```
 npm install
