@@ -40,7 +40,7 @@ This project uses VitePress for documentation and website building.
 
 ### Documentation
 For more information about VitePress configuration and features, refer to the official documentation:
-- [VitePress Reference](https://vitepress.dev/reference)
+- [VitePress Reference](https://vitepress.dev/)
 
 ### Github Action Deploy
 - [ ] TODO
