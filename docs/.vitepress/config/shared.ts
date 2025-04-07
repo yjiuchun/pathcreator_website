@@ -4,10 +4,9 @@ import {
   groupIconVitePlugin,
   localIconLoader
 } from 'vitepress-plugin-group-icons'
-import { search as zhSearch } from './zh'
 
 export const shared = defineConfig({
-  title: 'VitePress',
+  title: '上海创路者机器人有限公司',
 
   rewrites: {
     'en/:rest*': ':rest*'
@@ -34,16 +33,6 @@ export const shared = defineConfig({
         const { localeIndex = 'root' } = env
         const codeCopyButtonTitle = (() => {
           switch (localeIndex) {
-            case 'es':
-              return 'Copiar código'
-            case 'fa':
-              return 'کپی کد'
-            case 'ko':
-              return '코드 복사'
-            case 'pt':
-              return 'Copiar código'
-            case 'ru':
-              return 'Скопировать код'
             case 'zh':
               return '复制代码'
             default:
@@ -86,18 +75,6 @@ export const shared = defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
-
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: '8J64VVRP8K',
-        apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
-        indexName: 'vitepress',
-        locales: {
-          ...zhSearch,
-        }
-      }
-    },
 
     carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   },

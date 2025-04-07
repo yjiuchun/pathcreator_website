@@ -42,5 +42,7 @@ This project uses VitePress for documentation and website building.
 For more information about VitePress configuration and features, refer to the official documentation:
 - [VitePress Reference](https://vitepress.dev/)
 
-### Github Action Deploy
-- [ ] TODO
+### Todo List
+- [ ] Add Github Action Deploy
+- [ ] Add logo of the company
+

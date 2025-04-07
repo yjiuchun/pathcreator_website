@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Pathcreator"
-  text: "Pathcreator's company website"
-  tagline: My great project tagline
+  name: "上海创路者机器人有限公司"
+  text: "机器人外包之王"
+  tagline: 3D视觉 机械臂 机器人底盘
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: 3D视觉
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 机械臂
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 机器人底盘
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
