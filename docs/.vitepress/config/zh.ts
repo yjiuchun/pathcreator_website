@@ -56,27 +56,28 @@ export const zh = defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: '指南',
-      link: '/zh/guide/what-is-vitepress',
-      activeMatch: '/zh/guide/'
+      text: '首页',
+      link: '/'
     },
     {
-      text: '参考',
-      link: '/zh/reference/site-config',
-      activeMatch: '/zh/reference/'
+      text: '产品',
+      link: '/产品'
     },
     {
-      text: pkg.version,
-      items: [
-        {
-          text: '更新日志',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
-        },
-        {
-          text: '参与贡献',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
-        }
-      ]
+      text: '开源',
+      link: '/开源'
+    },
+    {
+      text: '关于我们',
+      link: '/关于我们'
+    },
+    {
+      text: '招贤纳士',
+      link: '/招贤纳士'
+    },
+    {
+      text: '联系我们',
+      link: '/联系我们'
     }
   ]
 }
